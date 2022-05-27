@@ -42,9 +42,10 @@ cd kubecon-2022-doks-workshop
 ```sh
 export DO_TOKEN="<YOUR_DO_TOKEN>"
 ```
-
-**Note:** Since Windows doesn't support enviornment variables, Windows users should keep the token on their clipboard to easily paste.
-
+Windows users:
+```sh
+SET DO_TOKEN="<YOUR_DO_TOKEN>"
+```
 3. [Use the API token to grant account access to doctl](https://docs.digitalocean.com/reference/doctl/how-to/install/#step-3-use-the-api-token-to-grant-account-access-to-doctl)
 ```sh
 doctl auth init 
